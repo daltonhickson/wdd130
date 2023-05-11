@@ -23,8 +23,16 @@
     text-align: center;
 
 }
-  footer {
-    background-color: steelblue;
-    color: white;
-    text-align: center;
-  }
+nav, footer {
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+}
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+}
+a:hover {
+  background-color: white;
+  color: steelblue;
+}
