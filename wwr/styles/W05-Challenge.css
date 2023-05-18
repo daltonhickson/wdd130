@@ -1,0 +1,26 @@
+.circular-square {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: inline;
+    margin: 0 auto;
+  }
+  header{
+    background-color: #C2C5AA;
+  }
+  h1{
+    padding: 125px;
+    width: 40%;
+    margin: 0 auto;
+  }
+  h2{
+    text-align: right;
+    width: 40%;
+    margin: 0 auto;
+  }
+  img{
+    text-align: center;
+  }
+  div{
+    background-color: gray;
+  }
