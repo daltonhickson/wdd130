@@ -31,6 +31,7 @@ main section{
     height: 725px;
 }
 body{
+    font-size: 22px;
     padding: 0;
     margin: 0;
     background-color:#caffbf
@@ -65,7 +66,7 @@ nav a:hover{
 }
 .msg p{
     color: black;
-    font-size: 8em;
+    font-size: 0,8em;
     padding-bottom: 15px;
 }
 #background{
