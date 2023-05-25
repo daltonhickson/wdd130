@@ -134,34 +134,36 @@ row-gap: 0;
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
+  
   height: 400px;
 }
 .red5 { 
-  width: 100px; 
+  width: 587px; 
   height: 100px; 
-  background-color: red; 
-} 
-.green5 { 
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
+  background-color: red;
 
 } 
+.green5 { 
+  width: 180px; 
+  height: 180px; 
+  background-color: green; 
+float: left;
+} 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
+  width: 587px; 
+  height: 85%; 
   background-color: gold; 
 
 } 
 .blue5 {
-  width: 100px; 
+  width: 587px; 
   height: 100px; 
   background-color: blue; 
 } 
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
-  
+
 }
 .red6 {
   width: 100px; 
