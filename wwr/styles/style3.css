@@ -8,9 +8,6 @@ div{
     font-size: 2em;
     margin-top: 10px;
 }
-h4{
-    color: black;
-}
 
 nav a{
     text-align: center;
@@ -20,6 +17,7 @@ nav a{
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    color: #0FEC94;
 }
 .button-box{
     text-align: center;
@@ -61,7 +59,7 @@ nav {
 #hero-msg{
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: -100px;
+    margin-top: 100px;
 }
 nav a:hover{
     background-color:#FDFFB6
