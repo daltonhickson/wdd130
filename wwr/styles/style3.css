@@ -40,7 +40,25 @@ h2{
     margin: 0;
 }
 header{
+    display: grid;
+    grid-template-columns: 150px auto;
     background-color:#A0C4FF
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+#hero-msg{
+    -ms-grid-column-span: 2/3;
+    -ms-grid-row-span: 1/2;
 }
 nav a:hover{
     background-color:#FDFFB6
@@ -110,6 +128,8 @@ footer p a:hover {
 }
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 footer .social img{
     padding-top: 15px;
