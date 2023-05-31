@@ -176,8 +176,6 @@ footer .social img{
 main section img{
     box-sizing: border-box;
 }
-/* Media queries always need to be after all the other CSS.
- Don't add any CSS after the media query later either.  */
  @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
