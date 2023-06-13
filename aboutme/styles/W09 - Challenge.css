@@ -1,0 +1,18 @@
+h2{
+    color: #5D8AA8;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.footers{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+background-color: #5D8AA8;
+color: white;
+text-align: center;
+}
