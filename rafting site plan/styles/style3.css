@@ -1,7 +1,4 @@
-div{
-    width: 1600px;
-    margin: 0 auto; 
-}
+
 .home-title{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -143,7 +140,7 @@ footer .social img{
 }
 .home-grid{
     display: grid;
-    grid-template-columns:repeat(10,ifr) ;
+    grid-template-columns:repeat(10,1fr) ;
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
