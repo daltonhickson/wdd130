@@ -241,6 +241,21 @@ main section img{
     width: 85%;
     height: 85%;
 }
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
