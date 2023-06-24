@@ -21,18 +21,19 @@
                 <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
-        <h6>let us to know what you think! </h6>
-        <h7>it is vey important to know what our clients are thinking, for that reason
+        <div id="feedback"></div>
+        <h6>Let Us To Know What You Think! </h6>
+        <h8>it is vey important to know what our clients are thinking, for that reason
             we have made this page to read your opinions and comments! you all help us
             to improve our services and the quality of our work. so please be respectful,
             we will not tolerate offensive comments! How many do you give us from one to ten?
             write it below
-        </h7>
+        </h8>
 
         <div id="comments">
             <img id="image5" src="images/commentM800.jpg" alt="Comment image">
-            <div id="feedback"></div>
-            <div id="comment text">
+            
+            <div id="comment-text">
                 <form class="comment1" action="/my-handling-form-page" method="post">
                     <ul>
                         <li>
@@ -66,7 +67,7 @@
                         // stop the form from doing the default action.
                         e.preventDefault();
                         // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-                        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+                        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your comment. We appreciate your opinion and it helps us a lot to improve!';
                         // make the feedback element visible.
                         feedbackElement.style.display = "block";
                         // add a class to move everything down so our message doesn't cover it.
@@ -76,6 +77,7 @@
             </div>
         </div>
 
+        
     <footer>
         <p>The Maker © 20XX - Dalton Hickson Gilces</p>
         <p><a href="site-plan.html">Site Plan</a></p>
