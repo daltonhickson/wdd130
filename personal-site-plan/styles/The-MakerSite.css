@@ -41,7 +41,9 @@ p{
 }
 .main-images{
     display: grid;
-    grid-template-columns: 25% 210px 25% 210px 25%;
+    grid-template-columns: 25% 1fr 25% 1fr 25%;
+    padding: auto;
+    margin: auto;
 }
 .image1{
     grid-column: 1;
