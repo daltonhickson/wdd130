@@ -197,6 +197,24 @@ footer1 p a:hover {
 }    
 
 /*configuration for Comment-PAGE.HTML*/
+nav2 a{
+  text-align: center;
+  color: #723C70;
+  text-decoration: none;
+  padding: 70px;
+}
+nav2 {
+  display: flex;
+  justify-content: space-around;
+}
+nav2 a:hover {
+  color: #ff4800;
+}
+header2{
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color:#563A91;
+}
 h6{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
@@ -234,6 +252,29 @@ h6{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+
+  footer2{
+    background-color: #6f7364;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer2 a{
+    color: #4CC9F0;
+    text-decoration: none;
+  }
+  footer2 p {
+    font-size: 1.2em;
+  }    
+  footer2 a:hover{
+    color: black;
+  }
+  footer2 p a:hover {
+    text-decoration: underline;
+  }    
+
 
 footer{
     background-color: #6f7364;
